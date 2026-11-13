@@ -21,10 +21,10 @@ kubectl apply -f TP/middle/wordpress-service.yml -n middle
 # NGINX
 
 ## Liste de commades utilisées
-kubectl apply -f TP/front/nginx-cm.yml -n front
-kubectl apply -f TP/front/nginx-deployment.yml -n front
-kubectl apply -f TP/front/nginx-service.yml -n front
-kubectl port-forward -n front svc/nginx 8080:8383
+kubectl apply -f TP/front/nginx-cm.yml -n front  
+kubectl apply -f TP/front/nginx-deployment.yml -n front  
+kubectl apply -f TP/front/nginx-service.yml -n front  
+kubectl port-forward -n front svc/nginx 8080:8383  
 
 # VERIFICATIONS
 
